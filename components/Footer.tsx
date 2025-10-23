@@ -16,7 +16,7 @@ export default function Footer() {
           transition={{ duration: 0.6, ease: 'easeOut' }}
           viewport={{ once: true }}
         >
-          <img src={'/logo.png'} width={175}></img>
+          <img src={'/logo-2.png'} width={175}></img>
           <p className="mt-3 text-white/70 text-sm leading-relaxed">
             A lifestyle store for finer things in life - right where you are.
             Try it first, own it after.
