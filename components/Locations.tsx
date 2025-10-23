@@ -37,6 +37,7 @@ export default function Locations() {
                 loop
                 playsInline
                 className="absolute inset-0 h-full w-full object-cover"
+                preload='metadata'
               />
             </div>
             <div className="p-5">
@@ -67,6 +68,7 @@ export default function Locations() {
                 loop
                 playsInline
                 className="absolute inset-0 h-full w-full object-cover"
+                preload='metadata'
               />
             </div>
             <div className="p-5">
@@ -97,6 +99,7 @@ export default function Locations() {
                 loop
                 playsInline
                 className="absolute inset-0 h-full w-full object-cover"
+                preload='metadata'
               />
             </div>
             <div className="p-5">
