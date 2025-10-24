@@ -2,13 +2,39 @@
 
 import { useState } from 'react'
 
+export const metadata = {
+  title: "Catalogue | ZenZebra",
+  description:
+    "Browse ZenZebra’s curated catalogues from Smartworks, Ambience mall, and The Lodhi. Discover the latest lifestyle products you can try before you buy — right where you are.",
+  keywords: [
+    "ZenZebra catalogue",
+    "Smartworks Gurugram",
+    "Ambience Mall Gurugram",
+    "The Lodhi",
+    "product catalogue",
+  ],
+  openGraph: {
+    title: "Catalogue | ZenZebra",
+    description:
+      "Explore ZenZebra catalogues for Smartworks, Ambience Mall, and DLF Spa. Experience convenience, assurance, and value through curated lifestyle offerings.",
+    url: "https://zenzebra.in/catalogue",
+    siteName: "ZenZebra",
+    images: [{ url: "/logo-2.png", width: 1200, height: 630, alt: "ZenZebra Catalogue" }],
+    locale: "en_IN",
+    type: "website",
+  },
+  metadataBase: new URL("https://zenzebra.in"),
+  themeColor: "#CC2224",
+}
+
+
 const LOCATIONS = [
-  { label: 'Smartworks - Gurugram', file: 'smartworks-gurugram.pdf' },
-  { label: 'Awfis - Ambience Mall, Gurugram', file: 'ambience-mall.pdf' },
-  { label: 'The Lodhi - New delhi', file: 'dlf-spa.pdf' },
+  { label: 'Smartworks - Gurugram', file: 'zenzebra-smartworks.pdf' },
+  { label: 'Awfis - Ambience Mall, Gurugram', file: 'zenzebra-awfis.pdf' },
+  { label: 'The Lodhi - New delhi', file: 'zenzebra-lodhi.pdf' },
 ]
 
-export default function CatalogPage() {
+export default function CataloguePage() {
   const [selected, setSelected] = useState('')
   const url = selected ? '/catalogs/' + selected : ''
 

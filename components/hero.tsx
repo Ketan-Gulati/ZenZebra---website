@@ -1,6 +1,7 @@
 'use client'
 import { ParticleCanvas } from "@/hooks/particle"
 import { motion, useScroll, useTransform } from "framer-motion"
+import Link from "next/link"
 
 function Hero() {
     const {scrollY} = useScroll()
@@ -42,20 +43,23 @@ function Hero() {
                         Try it first. Own it later. Live smarter every day
                     </motion.p>
 
+                    <Link href={'/catalogue'}>
                     <motion.button
                     initial={{opacity:0, y:10}}
                     animate={{opacity:1, y:0}}
                     transition={{duration:0.8}}
                     whileHover={{ scale: 1.05, transition: { duration: 0.2, ease:"easeOut" } }}
                     className="relative overflow-hidden px-8 py-4 rounded-full border
-                      border-white/30 hover:border-white/50 transition-all group">
-                        <span className="text-white/80 hover:text-white transition-colors">Explore experiences</span>
+                      border-white/30 hover:border-white/50 transition-all cursor-pointer group">
+                        <span className="text-white/80 hover:text-white transition-colors">Explore catalogue</span>
+                        
                         <div
                                 className="absolute inset-0 bg-gradient-to-r 
                                     from-red-600/20 via-red-400/10 to-red-200/5 opacity-0
                                     hover:opacity-100 transition-opacity"
                             />
                     </motion.button>
+                    </Link>
                 </motion.div>
 
                 {/*image card*/}
