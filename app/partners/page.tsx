@@ -36,13 +36,20 @@ export const metadata = {
 
 export default function PartnersPage() {
   return (
-    <main className="bg-black text-white">
-      <Hero />
+    <main className="bg-black text-white relative">
+      <img
+        src={"/blob-1.jpg"}
+        className=' sm:block absolute top-0 left-0 w-full h-full object-cover opacity-60 pointer-events-none select-none"'
+      ></img>
+      <div className="relative z-10">
+        <Hero />
       <ValueSection />
       <ExperienceSection />
       <Numbers />
       <CollabModel />
       <FinalCTA />
+      </div>
+      
     </main>
   )
 }

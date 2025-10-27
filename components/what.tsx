@@ -46,9 +46,9 @@ function what() {
         smarter, feel better, and
         <span className="text-white font-medium">
           {" "}
-          live effortlessly every day.
+          live effortlessly every day. 
         </span>
-        No pressure. No guesswork.
+        {" "}No pressure. No guesswork.
       </motion.p>
 
       <p className="mt-6 text-white/60 italic">

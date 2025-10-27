@@ -1,5 +1,11 @@
-import { BrandsCarousel, FinalCTA, Hero, Network, WhatYouGet, WhyJoin } from "@/components/brandsPage";
-
+import {
+  BrandsCarousel,
+  FinalCTA,
+  Hero,
+  Network,
+  WhatYouGet,
+  WhyJoin,
+} from "@/components/brandsPage";
 
 export const metadata = {
   title: "Brands | ZenZebra",
@@ -12,7 +18,7 @@ export const metadata = {
     "offline discovery",
     "product showcase",
     "brand partnerships",
-    "lifestyle retail India"
+    "lifestyle retail India",
   ],
   openGraph: {
     title: "Brands | ZenZebra",
@@ -25,27 +31,31 @@ export const metadata = {
         url: "/logo-2.png",
         width: 1200,
         height: 630,
-        alt: "ZenZebra Brands Page"
-      }
+        alt: "ZenZebra Brands Page",
+      },
     ],
     locale: "en_IN",
-    type: "website"
+    type: "website",
   },
   metadataBase: new URL("https://zenzebra.in"),
-  themeColor: "#CC2224"
-}
+  themeColor: "#CC2224",
+};
 
 export default function BrandsPage() {
   return (
-    <main className="bg-black text-white">
-      <Hero />
-      <WhyJoin />
-      <Network />
-      <WhatYouGet />
-      <BrandsCarousel />
-      <FinalCTA />
+    <main className="bg-black text-white relative">
+      <img
+        src={"/blob-1.jpg"}
+        className=' sm:block absolute top-0 left-0 w-full h-full object-cover opacity-60 pointer-events-none select-none"'
+      ></img>
+      <div className="relative z-10">
+        <Hero />
+        <WhyJoin />
+        <Network />
+        <WhatYouGet />
+        <BrandsCarousel />
+        <FinalCTA />
+      </div>
     </main>
   );
 }
-
-
