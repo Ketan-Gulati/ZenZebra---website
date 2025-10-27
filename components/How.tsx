@@ -16,7 +16,7 @@ export default function How() {
             viewport={{ once: true }}
             className="text-3xl sm:text-4xl font-extrabold leading-tight"
           >
-            How <span className="text-black">ZenZebra</span> Works
+            Discovery <br/><span className="text-black">To</span> Destination
           </motion.h2>
 
           <motion.p
@@ -26,8 +26,8 @@ export default function How() {
             viewport={{ once: true }}
             className="mt-4 text-white/90 max-w-prose"
           >
-            From discovery to decision - everything happens in the spaces you already visit.
-            Simple steps. No pressure. No guesswork.
+            From discovery to decision - in spaces you already are.<br/>
+            No pressure. No guesswork.
           </motion.p>
         </div>
 
@@ -50,7 +50,7 @@ export default function How() {
                 <div className="text-xs font-semibold tracking-wide text-[#CC2224]">STEP 1</div>
                 <h3 className="text-lg font-semibold">Discover</h3>
                 <p className="mt-1 text-sm text-[#353535]/80">
-                  Find exciting brands where you are—offices, gyms, cafés, malls.
+                  Find exciting products right where you are.
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function How() {
                 <div className="text-xs font-semibold tracking-wide text-[#CC2224]">STEP 2</div>
                 <h3 className="text-lg font-semibold">Try</h3>
                 <p className="mt-1 text-sm text-[#353535]/80">
-                  Sample and feel what fits your routine - before you decide.
+                  Touch and feel what fits your routine - before you decide.
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function How() {
                 <div className="text-xs font-semibold tracking-wide text-[#CC2224]">STEP 3</div>
                 <h3 className="text-lg font-semibold">Buy</h3>
                 <p className="mt-1 text-sm text-[#353535]/80">
-                  Take home what you love - prices that feel right, no regrets.
+                  At prices that feel right, no regrets.
                 </p>
               </div>
             </div>

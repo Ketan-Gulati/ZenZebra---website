@@ -40,7 +40,7 @@ function Hero() {
                     animate={{opacity:1, y:0}}
                     transition={{duration:0.8, delay:1.1}}
                     className="text-xl text-white/80 mb-8">
-                        Try it first. Own it later. Live smarter every day
+                        Try it. Own it. On the go
                     </motion.p>
 
                     <Link href={'/catalogue'}>

@@ -73,6 +73,17 @@ export default function Footer() {
         </motion.div>
       </div>
 
+      <div className='grid gap-2 sm:grid-cols-2 border-t text-center border-white/10 mt-12 pt-6 text-white/80 text-[14px]'>
+        <div className='flex flex-col'>
+          <span>Registered Name</span>
+          <span>Bohemian Curations Pvt Ltd</span>
+        </div>
+        <div className='flex flex-col'>
+          <span>CIN</span>
+          <span>U46411DL2023PTC424632</span>
+        </div>
+      </div>
+
       {/* Divider */}
       <div className="border-t border-white/10 mt-12 pt-6 text-center text-xs text-white/60">
         © {new Date().getFullYear()} ZenZebra. All rights reserved.

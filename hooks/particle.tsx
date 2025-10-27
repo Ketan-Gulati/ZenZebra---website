@@ -17,7 +17,7 @@ class Particle {
             x: (Math.random() - 0.5) * 2,
             y: (Math.random() - 0.5) * 2,
         }
-        this.radius = Math.random() * 3 + 0.5;
+        this.radius = Math.random() * 3 + 1.5;
         this.color = `rgba(${Math.random()*100 + 155}, ${Math.random()*100 + 155}, ${Math.random()*100 + 155}, 
         0.9)`  // 'a' refers to alpha which represents the opacity of color
     }
