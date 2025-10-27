@@ -33,8 +33,8 @@ export default function Footer() {
           <h4 className="text-lg font-semibold text-[#CC2224] mb-3">Explore</h4>
           <ul className="space-y-2 text-white/80 text-sm">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/brands">Integrate your brand with us</Link></li>
-            <li><Link href="/partners">Become our channel partner</Link></li>
+            <li><Link href="/brands" scroll>Integrate your brand with us</Link></li>
+            <li><Link href="/partners" scroll>Become our channel partner</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </motion.div>

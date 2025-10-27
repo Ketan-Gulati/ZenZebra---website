@@ -1,10 +1,10 @@
 import {
+  Hero,
+   WhatYouGet,
+  WhyJoin,
+  Network,
   BrandsCarousel,
   FinalCTA,
-  Hero,
-  Network,
-  WhatYouGet,
-  WhyJoin,
 } from "@/components/brandsPage";
 
 export const metadata = {
@@ -46,7 +46,8 @@ export default function BrandsPage() {
     <main className="bg-black text-white relative">
       <img
         src={"/blob-1.jpg"}
-        className=' sm:block absolute top-0 left-0 w-full h-full object-cover opacity-60 pointer-events-none select-none"'
+        alt="blob image"
+        className='sm:block absolute top-0 left-0 w-full h-full object-cover opacity-60 pointer-events-none select-none'
       ></img>
       <div className="relative z-10">
         <Hero />
